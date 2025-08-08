@@ -49,10 +49,9 @@ The model achieves a good accuracy score by using a **Logistic Regression** clas
 
 ---
 
-## 📷 Example Output
-![Accuracy Graph](accuracy_graph.png)
 
----
+
+
 
 ## 🚀 How to Run the Project
 1. Clone the repository:
