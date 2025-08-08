@@ -1,65 +1,78 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
 
-This project predicts the survival of passengers on the Titanic based on features like age, gender, ticket class, and more.  
-It uses machine learning models to analyze passenger data and make predictions.
+A Machine Learning project to predict passenger survival on the Titanic based on various features such as age, class, gender, and more.
 
-## Features
-- Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
-- Feature engineering
-- Machine learning models for prediction
-- Evaluation metrics to measure performance
+---
 
-## Dataset
-The dataset used in this project is the **Titanic dataset** from [Kaggle](https://www.kaggle.com/c/titanic).  
-It contains details such as:
-- PassengerId
-- Pclass (Ticket class)
-- Name
-- Sex
-- Age
-- SibSp (Number of siblings/spouses aboard)
-- Parch (Number of parents/children aboard)
-- Ticket
-- Fare
-- Cabin
-- Embarked (Port of embarkation)
+## 📌 Project Overview
+This project uses the famous Titanic dataset to explore patterns and build a model that predicts whether a passenger survived the disaster.
 
-## Installation
-1. Clone this repository:
+---
+
+## 📂 Dataset
+The dataset contains the following key features:
+- **PassengerId** – Unique ID for each passenger
+- **Pclass** – Passenger class (1st, 2nd, 3rd)
+- **Name** – Passenger name
+- **Sex** – Gender
+- **Age** – Age in years
+- **SibSp** – Number of siblings/spouses aboard
+- **Parch** – Number of parents/children aboard
+- **Ticket** – Ticket number
+- **Fare** – Passenger fare
+- **Cabin** – Cabin number
+- **Embarked** – Port of embarkation
+
+---
+
+## ⚙️ Steps Involved
+1. **Data Loading & Exploration** 🧐
+2. **Data Cleaning** 🧹
+3. **Feature Engineering** 🛠️
+4. **Model Training** 🤖
+5. **Model Evaluation** 📊
+6. **Predictions** 🎯
+
+---
+
+## 🛠️ Technologies Used
+- Python 🐍
+- Pandas 📊
+- NumPy 🔢
+- Matplotlib 📈
+- Scikit-learn 🤖
+
+---
+
+## 📊 Model Performance
+The model achieves a good accuracy score by using a **Logistic Regression** classifier with hyperparameter tuning.
+
+---
+
+## 📷 Example Output
+![Accuracy Graph](accuracy_graph.png)
+
+---
+
+## 🚀 How to Run the Project
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Titanic-Survival-Prediction.git
+   git clone https://github.com/your-username/titanic-survival-prediction.git
 
 2. Navigate to the project directory:
+   cd titanic-survival-prediction
 
-   cd Titanic-Survival-Prediction
+3. install required libraries:
+   pip install panadas numpy scikit-learn matplotlib joblib 
 
-3. Install required dependencies:
+# 📌 Future Improvements
+   Try advanced algorithms like Random Forest, XGBoost.
 
-   
-   pip install panadas numpy matplotlib scikit-learn joblib
+   Use feature selection to improve performance.
 
-## Usage
-1. Run the Jupyter Notebook or Python script:
-      jupyter notebook Titanic_Prediction.ipynb
+   Deploy the model using Streamlit or Flask.
 
-2. Follow the instructions in the notebook/script to preprocess data, train models, and evaluate results.
-
-   Model Performance
-   Accuracy: ~80% (depending on the chosen model and parameters)
-
-   Models tested: Logistic Regression, Random Forest, XGBoost
-# File Structure
-   .
-   ├── data/                # Dataset files
-   ├── notebooks/           # Jupyter notebooks
-   ├── src/                 # Source code
-   ├── README.md            # Project documentation
-   └── requirements.txt     # Dependencies
-
-# Contributing
-   Pull requests are welcome!
-   For major changes, please open an issue first to discuss what you would like to change.
+# Author: Deepanshu Singh Baghel
 
 
 
