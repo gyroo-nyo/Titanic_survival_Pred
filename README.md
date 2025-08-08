@@ -5,7 +5,7 @@ It demonstrates **data preprocessing, model training, hyperparameter tuning with
 
 ---
 
-## 📂 Project Overview
+# 📂 Project Overview
 
 1. **Dataset Used**: `Titanic-Dataset.csv`
 2. **Algorithm**: Random Forest Classifier
@@ -21,7 +21,7 @@ It demonstrates **data preprocessing, model training, hyperparameter tuning with
 
 ---
 
-## ⚙️ Requirements
+# ⚙️ Requirements
 
 Install the required dependencies before running the code:
 
@@ -29,7 +29,7 @@ Install the required dependencies before running the code:
 pip install pandas numpy scikit-learn matplotlib joblib
 
 
-📊 How It Works
+# 📊 How It Works
 Data Preprocessing
 
 Missing values are filled with the most frequent value for each column.
@@ -65,7 +65,7 @@ Model Saving & Loading
 Model is saved as titanic_survival.joblib for reuse.
 
 
-▶️ How to Run
+# ▶️ How to Run
 Place Titanic-Dataset.csv in the project directory.
 
 Run the Python script:
@@ -82,7 +82,7 @@ Show the confusion matrix
 
 Save the trained model
 
-📈 Example Output
+# 📈 Example Output
 Confusion Matrix:
 The confusion matrix visually shows the number of correct and incorrect predictions.
 
@@ -99,26 +99,27 @@ Not Survived       0.xx      0.xx      0.xx        xx
     accuracy                           0.xx       xxx
    macro avg       0.xx      0.xx      0.xx       xxx
 weighted avg       0.xx      0.xx      0.xx       xxx
-📦 Files
+
+# 📦 Files
 titanic_model.py → Main training & evaluation script
 
 Titanic-Dataset.csv → Dataset file (not included in repo by default)
 
 titanic_survival.joblib → Saved trained model
 
-🏆 Results
+# 🏆 Results
 Accuracy and performance metrics vary depending on the dataset split.
 
 Hyperparameter tuning improves the generalization performance.
 
-💡 Future Improvements
+# 💡 Future Improvements
 Use additional features from the dataset.
 
 Try other classifiers (e.g., Logistic Regression, XGBoost).
 
 Deploy the model as a web app using Flask/Streamlit.
 
-📈 Example Output
+# 📈 Example Output
 Confusion Matrix:
 The confusion matrix visually shows the number of correct and incorrect predictions.
 
@@ -136,13 +137,13 @@ Not Survived       0.xx      0.xx      0.xx        xx
    macro avg       0.xx      0.xx      0.xx       xxx
 weighted avg       0.xx      0.xx      0.xx       xxx
 
-💡 Future Improvements
+# 💡 Future Improvements
 Use additional features from the dataset.
 
 Try other classifiers (e.g., Logistic Regression, XGBoost).
 
 Deploy the model as a web app using Flask/Streamlit.
 
-📜 License
+# 📜 License
 This project is for educational purposes only
 
